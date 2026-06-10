@@ -280,10 +280,10 @@ Total: ₹${selectedBoxPrice}
                         className="w-full px-4 py-3 rounded-lg border border-brand-accent text-sm text-brand-secondary focus:border-brand-primary focus:outline-none bg-white transition-colors cursor-pointer"
                       >
                         <option value="Custom Cake">Premium Custom Celebration Cake</option>
-                        <option value="Assorted Sweet Box">Assorted Sweet Box (Cupcakes/Brownies)</option>
-                        <option value="Holiday Macaron Array">Holiday Macaron Array</option>
-                        <option value="Corporate Catering">Large Corporate Catering</option>
-                        <option value="Other Sweet Desire">Other Confectionery Desire</option>
+                        <option value="Assorted Sweet Box">Cupcakes</option>
+                        <option value="Holiday Macaron Array">Brownie</option>
+                        {/* <option value="Corporate Catering"></option>
+                        <option value="Other Sweet Desire"></option> */}
                       </select>
                     </div>
 
@@ -322,6 +322,7 @@ Total: ₹${selectedBoxPrice}
                               <option value="1-Tier">1-Tier Delight (Up to 1.5kg)</option>
                               <option value="2-Tier">2-Tier Splendor (2.5kg - 4kg)</option>
                               <option value="3-Tier">3-Tier Grandeur (5kg+)</option>
+                              <option value="Half KG Cake">Half KG Cake (Up to 1/5kg)</option>
                             </select>
                           </div>
 
