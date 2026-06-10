@@ -174,7 +174,7 @@ Total: ₹${selectedBoxPrice}
                     <span className="text-xs text-brand-tertiary font-medium">Lal Bangla Bypass Rd.</span>
                   </div>
                   <a 
-                    href="https://maps.google.com/?q=N377+Rajeev+nagar+Lal+bangle+Kanpur" 
+                    href="https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUqBggDECMYJzIGCAAQRRg8MggIARBFGCcYOzIGCAIQRRg5MgYIAxAjGCcyBggEEEUYPDIGCAUQRRg8MgYIBhBFGD0yBggHEEUYPNIBCDMxNjJqMGo3qAIIsAIB8QUB4xxpib1HKg&um=1&ie=UTF-8&fb=1&gl=in&sa=X&geocode=KemtJmoAQZw5MRM3bHEB7xc2&daddr=N-377,+Rajeev+nagar,+Lal+Bangla,+Jajmau+Sub+Metro+City,+Kanpur,+Uttar+Pradesh+208007" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="bg-brand-secondary hover:bg-brand-primary text-white text-xs font-bold px-3.5 py-1.5 rounded-lg tracking-wider transition uppercase cursor-pointer"
