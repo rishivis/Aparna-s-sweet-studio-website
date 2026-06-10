@@ -1,6 +1,7 @@
 import React from 'react';
 import { Sparkles, Heart } from 'lucide-react';
 import logo from "../../assets/aparnas-logo.png";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -46,6 +47,43 @@ export default function Footer() {
 
           {/* Social icons */}
           <div className="flex items-center space-x-4 pt-3">
+
+            <a
+
+              href="https://www.instagram.com/treatsbyaparna?igsh=MW42YTkwNHg0YTZpdw=="
+
+              target="_blank"
+
+              rel="noopener noreferrer"
+
+              className="text-brand-cream-light hover:text-pink-300 transition"
+
+            >
+
+             <FaInstagram size={24} />
+
+            </a>
+
+
+
+            <a
+
+              href="https://wa.me/919651532129"
+
+              target="_blank"
+
+              rel="noopener noreferrer"
+
+              className="text-brand-cream-light hover:text-green-400 transition"
+
+            >
+
+             <FaWhatsapp size={24} />
+
+            </a>
+
+          </div>
+          {/* <div className="flex items-center space-x-4 pt-3">
             {['Instagram', 'Pinterest', 'Facebook'].map((social) => (
               <a 
                 href={`#${social.toLowerCase()}`}
@@ -55,7 +93,7 @@ export default function Footer() {
                 {social}
               </a>
             ))}
-          </div>
+          </div> */}
         </div>
 
       </div>
