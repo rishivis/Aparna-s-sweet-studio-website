@@ -40,27 +40,70 @@ export default function InquiryFormSection({ cartItems, prefilledType = 'Custom 
   };
 
   const handleFormSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setLoading(true);
+  e.preventDefault();
+
+  const orderDetails =
+    cartItems.length > 0
+      ? cartItems
+          .map(
+            (item) =>
+              `${item.menuItem.name} x${item.quantity} (₹${item.menuItem.price * item.quantity})`
+          )
+          .join("\n")
+      : "No items selected";
+
+  const message = `
+🍰 New Inquiry - Aparna's Sweet Studio
+
+Name: ${formData.firstName} ${formData.lastName}
+Email: ${formData.email}
+
+Order Type: ${formData.orderType}
+Theme: ${formData.theme}
+Tiers: ${formData.tiers}
+Dietary: ${formData.dietary}
+
+Message:
+${formData.message}
+
+Selected Items:
+${orderDetails}
+
+Total: ₹${selectedBoxPrice}
+`;
+
+  const whatsappNumber = "919651532129";
+
+  const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+
+  window.open(whatsappUrl, "_blank");
+
+  setSubmitted(true);
+  onClearCart();
+};
+
+  // const handleFormSubmit = (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   setLoading(true);
     
-    // Simulate API Post request
-    setTimeout(() => {
-      setLoading(false);
-      setSubmitted(true);
-      onClearCart();
-      // Reset form variables
-      setFormData({
-        firstName: '',
-        lastName: '',
-        email: '',
-        orderType: 'Custom Cake',
-        theme: 'Floral',
-        tiers: '1-Tier',
-        dietary: 'Classic',
-        message: ''
-      });
-    }, 1800);
-  };
+  //   // Simulate API Post request
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //     setSubmitted(true);
+  //     onClearCart();
+  //     // Reset form variables
+  //     setFormData({
+  //       firstName: '',
+  //       lastName: '',
+  //       email: '',
+  //       orderType: 'Custom Cake',
+  //       theme: 'Floral',
+  //       tiers: '1-Tier',
+  //       dietary: 'Classic',
+  //       message: ''
+  //     });
+  //   }, 1800);
+  // };
 
   const selectedBoxPrice = cartItems.reduce((sum, item) => sum + (item.menuItem.price * item.quantity), 0);
 
