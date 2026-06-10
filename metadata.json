@@ -1,0 +1,6 @@
+{
+  "name": "Aparna's Sweet Studio",
+  "description": "An elegant, artisanal pastry and confectionery showcase with customized boxes, interactive flavor curation, and custom inquiry tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
