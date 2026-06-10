@@ -42,7 +42,7 @@ export const MENU_ITEMS: MenuItem[] = [
     id: 'menu-2',
     name: 'Velvet Cloud Cupcakes',
     category: 'cupcakes',
-    price: 300,
+    price: 450,
     unit: '9pcs',
     description: 'Classic red velvet with our signature whipped cream cheese icing.',
     image: 'https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=800'
