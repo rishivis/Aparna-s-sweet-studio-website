@@ -249,7 +249,7 @@ Total: ₹${selectedBoxPrice}
                           name="lastName"
                           value={formData.lastName}
                           onChange={handleChange}
-                          placeholder="Devi" 
+                          placeholder="Vishnoi" 
                           required
                           className="w-full px-4 py-3 rounded-lg border border-brand-accent text-sm text-brand-secondary focus:border-brand-primary focus:outline-none transition-colors"
                         />

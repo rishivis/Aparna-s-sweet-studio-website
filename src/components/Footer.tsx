@@ -40,8 +40,8 @@ export default function Footer() {
         <div className="md:col-span-4 space-y-4">
           <h4 className="text-xs font-bold uppercase tracking-widest text-[#fdd5be] font-mono">Business Info</h4>
           <ul className="space-y-1.5 text-sm text-brand-cream-dark/90">
-            <li><strong>Studio Hours:</strong> 10:00 AM – 8:00 PM (IST)</li>
-            <li><strong>Notice:</strong> 48 hours minimum for customized orders.</li>
+            <li><strong>Studio Hours:</strong> 10:00 AM – 11:00 PM (IST)</li>
+            <li><strong>Notice:</strong> 24 hours minimum for customized orders.</li>
             <li><strong>Studio Spot:</strong> N377 Rajeev nagar Lal bangle, Kanpur</li>
           </ul>
 

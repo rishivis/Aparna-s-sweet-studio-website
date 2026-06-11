@@ -95,13 +95,14 @@ export const TESTIMONIALS: Testimonial[] = [
     name: 'Gaurav Gupta',
     role: 'Corporate Host',
     rating: 5,
-    text: '"Perfect brownies! They were fudgy, rich, and delivered right on time for our office party. Highly recommend the sea salt variant."'
+    text: '"Perfect brownies! They were fudgy, rich, and delivered right on time for our office party. Highly recommend."'
   },
+
   {
     id: 'test-3',
     name: 'Kamini Vishnoi',
     role: 'Mother',
     rating: 5,
-    text: '"The jar cakes are such a brilliant gift idea. My daughter loved the party macaron stack. Everything was so aesthetically pleasing."'
+    text: '"The jar cakes are such a brilliant gift idea. My daughter loved that. Everything was so aesthetically pleasing."'
   }
 ];

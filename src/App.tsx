@@ -22,6 +22,7 @@ import Footer from './components/Footer';
 import TasteExplorer from './components/TasteExplorer';
 import BoxDrawer from './components/BoxDrawer';
 import { MenuItem, CartItem } from './types';
+import logo from "../assets/aparnas-logo.png"
 
 export default function App() {
   const [cartItems, setCartItems] = useState<CartItem[]>([]);
@@ -72,7 +73,11 @@ export default function App() {
           
           {/* Logo */}
           <a href="#" className="flex items-center space-x-2 group">
-            <span className="text-2xl group-hover:rotate-12 transition-transform duration-300">🎂</span>
+            <img
+              src={logo}
+              alt="Aparna's Sweet Studio"
+              className="h-10 w-auto"
+            />
             <span className="font-serif text-xl md:text-2xl font-bold tracking-tight text-brand-secondary">
               Aparna's Sweet Studio
             </span>
