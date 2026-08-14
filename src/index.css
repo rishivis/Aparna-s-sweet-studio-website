@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Theme Palette */
+  --color-brand-primary: #715859;       /* Blush Pink */
+  --color-brand-secondary: #765846;     /* Chocolate Brown */
+  --color-brand-tertiary: #675d4e;      /* Warm Charcoal/Taupe */
+  --color-brand-cream-light: #fbf9f5;   /* Neutral (Cream foundation) */
+  --color-brand-cream-dark: #f5f3ef;    /* Tonal warm background */
+  --color-brand-cream-darkest: #eae8e4; /* Tonal bounds */
+  --color-brand-accent: #fdd5be;        /* Sweet Peach Tint */
+  --color-brand-pink-container: #f4d3d3;/* Pink highlight container */
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-brand-cream-light);
+  color: var(--color-brand-tertiary);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .font-serif {
+  font-family: var(--font-serif);
+}
+
+/* Custom scrollbars to match the elegant aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-brand-cream-light);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-secondary);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-primary);
+}
+
