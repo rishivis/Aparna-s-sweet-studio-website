@@ -22,7 +22,7 @@ export const SPECIALTIES: Specialty[] = [
   {
     id: 'spec-4',
     title: 'Gourmet Layered Jar Cakes',
-    image: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1629980173135-9b01683515f5?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     tagline: 'Perfect cake layers and moist syrups stacked in glass jars.'
   }
   
@@ -34,7 +34,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: 'Signature Truffle Cake',
     category: 'cake',
     price: 500,
-    unit: 'Slice',
+    unit: '500 GM',
     description: 'Deep dark chocolate ganache with a melt-in-your-mouth sponge.',
     image: 'https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=800&q=80'
   },
@@ -43,18 +43,27 @@ export const MENU_ITEMS: MenuItem[] = [
     name: 'Velvet Cloud Cupcakes',
     category: 'cupcakes',
     price: 450,
-    unit: '9pcs',
+    unit: '6pcs',
     description: 'Classic red velvet with our signature whipped cream cheese icing.',
     image: 'https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=800'
   },
   {
     id: 'menu-3',
-    name: 'Brownies',
+    name: 'Walnut Brownies',
     category: 'brownies',
-    price: 300,
+    price: 500,
     unit: 'Box of 4',
     description: 'The perfect balance of sweet and salty in every dense, fudgy bite.',
     image: 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80'
+  },
+  {
+    id: 'menu-4',
+    name: 'Jar Cakes',
+    category: 'Jar Cakes',
+    price: 250,
+    unit: '1 PCS',
+    description: 'The perfect balance of sweet and salty in every dense, fudgy bite.',
+    image: 'https://images.unsplash.com/photo-1632682996575-9add08b98716?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   }
 ];
 
